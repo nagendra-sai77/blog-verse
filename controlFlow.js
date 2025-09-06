@@ -36,6 +36,8 @@ for(let key in person){
 for(let i=5;i>=0;i--){
     if(i===3){
         continue;
+    }else if(i===2){
+         break;
     }else{
         console.log(i)
     }
